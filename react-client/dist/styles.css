@@ -1,0 +1,255 @@
+
+/* --------------- NAV BAR --------------- */
+body {
+  font-family: 'Abril Fatface', monospace;
+}
+
+/* belongs in a tag, like <header></header> */
+header {
+  display: block;
+  /* rgba(0, 0, 0, 0.041) */
+  background-color: #fff;
+  border-bottom: 2px solid #00000031;
+  /*^^ width style color */
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  /* padding: 16px 10px 20px 10px;  */
+}
+
+#headerButtons {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.navButton {
+  color: #000000;
+  float: left;
+  padding: 15px 2% 20px 2%;
+  margin: auto;
+}
+
+/* styling Link react tag below, bec Link gets translated to a tag */
+/* green? */
+.link, .link:visited {
+  color: rgb(92, 92, 92);
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(8, 196, 8);
+  text-decoration: none;
+}
+
+logo {
+  display: inline;
+  padding: 0 3%;
+  float: left; 
+  margin: auto;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Abril Fatface', monospace;
+  color: #575757;
+}
+logo:hover {
+  color: rgb(41, 41, 41);
+}
+
+.padding15 {
+  padding: 40px;
+}
+
+/* --------------- HOME PAGE --------------- */
+.container {
+  background-image: url("/Images/polyTalk_background.png");
+  background-repeat: repeat;
+  background-color: #fff;
+  /* background-color: rgb(247, 247, 247); */
+  padding: 40px;
+  width:100%;
+  height: auto;
+}
+
+.bigText1 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 37px;
+  /* margin: 0 30px 0 30px; */
+  /* float: left; */
+  text-align: right;
+  /*margin: 10px 15px 0 0;*/
+}
+
+.bigText2 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin: 0 0 0 30px;
+  /* float: left; */
+  /* text-align: center; */
+}
+
+.bigText {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* margin: 0 0 0 0; */
+}
+
+.no-decor:hover {
+  text-decoration: none;
+}
+
+.button {
+  /*background-color: #707070;*/
+  /* color: #303030;
+  text-decoration: none;
+  border-radius: 6px; */
+  /* border: 0.07em solid #303030; */
+  /* margin: 7px;
+  float: right
+  -moz-border-radius:27px;
+	-webkit-border-radius:27px;
+  border-radius:27px;
+  padding:9px 7px;
+  font-size:17px; */
+}
+
+.button:hover {
+  /*background-color: #909090;*/
+  /*color: white;*/
+  /* -moz-box-shadow: 2px 2px 2px 2px #C8C8C8;
+	-webkit-box-shadow: 2px 2px 2px 2px #C8C8C8;
+	box-shadow: 2px 2px 2px 2px #C8C8C8;
+  color: #303030;
+  text-decoration: none; */
+}
+
+.arrow:hover {
+  height:50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+input {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 37px;
+  border-radius: 6px;
+  border: 0.04em solid #606060;
+}
+
+/* input:hover {
+  box-shadow: 1px 1px 1px grey;
+} */
+
+.welcome {
+  display: flex;
+  align-items: flex-start;
+  background-position: center;
+  background-size: cover;  
+  height: 100%;
+  width: 100%;
+}
+
+.highlight:hover {
+  color: green;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/* ----------- FORMATTING BILLS COLUMNS ------------- */
+.billCol {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin: 0 0 0 30px;
+  float: left;
+  text-align: left;
+}
+
+.billLink {
+  text-decoration: none;
+  color: black;
+}
+
+.billLink:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.billLink::after {
+  text-decoration: none;
+  color: black;
+}
+
+.sumBills {
+  overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.sumMaxHeight {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.title {
+  height:200px;
+}
+
+.hover:hover {
+  box-shadow: 2px 5px 5px 2px grey;
+}
+
+
+/* ----------- FORMATTING ABOUT ------------- */
+
+.grey {
+  color: #383838;
+}
+
+.dark-grey {
+  color: #282828;
+}
+
+.avant-garde {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 20;
+}
+
+.grey-back {
+  background-color: rgba(0, 0, 0, 0.027);
+}
+
+
+/* -------- SETTING BACKGROUND ------------- */
+body {
+  background-image: url("polyTalk_background.png");
+  background-repeat: repeat;
+  background-color: rgb(228, 26, 26);
+}
+
+footer {
+  display: block;
+  border-top: 1px solid #00000010;
+  border-bottom: 1px solid #00000009;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.027);
+  /*padding:40px;*/
+}
