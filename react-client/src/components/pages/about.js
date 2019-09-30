@@ -53,31 +53,11 @@ class About extends Component {
                         <div className="col">
                             <p className="db center mb2 mw-100">
                             <p className="f2 lh-copy">Allina</p>
-                            Incoming software engineer intern at Visa Inc</p>
+                            Student software engineer at Brooklyn collegec</p>
                             <hr />
                             <a className="" target="_blank" href="https://www.linkedin.com/in/allina-k/">Connect on Linkedin</a>
                         </div>
                     </div>
-                    <div className="black db ma2 mw7 w-30 pa2 br2 ba b--black-10">
-                        <img className="center db mt3 mw-30 br-100 ba dib" src={claudia} alt="" height="130" width="130" /> <hr />
-                        <div className="col">
-                            <p className="db center mb2 mw-100">
-                            <p className="f2 lh-copy">Shaina </p>
-                            SW engineer</p>
-                            <hr />
-                            <a className="" target="_blank" href="https://www.linkedin.com/in/saloni-kapoor-0271a5aa/">Connect on Linkedin</a>
-                        </div>
-                    </div>  
-                    <div className="black db ma2 mw7 w-30 pa2 br2 ba b--black-10">
-                        <img className="center db mt3 mw-30 br-100 ba dib" src={claudia} alt="" height="130" width="130" /> <hr />
-                        <div className="col">
-                            <p className="db center mb2 mw-100">
-                            <p className="f2 lh-copy">Jackson</p>
-                            Biomedical Engineering</p>
-                            <hr />
-                            <a className="" target="_blank" href="https://www.linkedin.com/in/saloni-kapoor-0271a5aa/">Connect on Linkedin</a>
-                        </div>
-                    </div>  
                 </div>
             </div>  
             {/* <div className="row tc shadow-2 dim ma5 pa5">
